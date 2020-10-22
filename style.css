@@ -1,0 +1,40 @@
+body{
+    font-family: 'Vampiro One', cursive;
+    margin: 0 auto;
+background-color: aqua;
+}
+
+#shrubCon{
+    padding: 5%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.shrub_image{
+    background-image: url("https://images.unsplash.com/photo-1544022995-83dbdc555353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80");
+    background-size: cover;
+  position: relative;
+  width: 300px;
+  height: 500px;
+}
+
+.shrub_text{
+    background-color: white;
+    color: black;
+    font-size: 3.9vw; 
+    font-weight: bold;
+    width: 300px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+
+h1:first-child i{
+    
+    color: coral;
+}
